@@ -1,0 +1,57 @@
+{
+  "fields": [
+      {
+          "type": "select",
+          "label": "Language",
+          "key": "language",
+          "order": 3,
+          "items": ["js", "java", "php"],
+          "isReadonly": false,
+          "isRequired": true
+      },
+      {
+        "type": "text",
+        "label": "First Name",
+        "key": "firstname",
+        "order": 1,
+        "isReadonly": false,
+        "isRequired": true
+      },
+      {
+          "type": "text",
+          "label": "Last Name",
+          "key": "lastname",
+          "order": 2,
+          "isReadonly": false,
+          "isRequired": true
+      },
+     
+      {
+          "type": "radio",
+          "label": "Gender",
+          "key": "gender",
+          "order": 4,
+          "items": ["male", "female"],
+          "isReadonly": false,
+          "isRequired": true
+      },
+      {
+          "type": "checkbox",
+          "label": "Games you like",
+          "key": "likes",
+          "order": 5,
+          "items": ["chess", "carrom", "snake & ladder"],
+          "isReadonly": false,
+          "isRequired": true
+      },
+      {
+          "type": "file",
+          "label": "Choose your profile",
+          "key": "profile",
+          "order": 6,
+          "isReadonly": false,
+          "isRequired": true
+      }
+      
+    ]
+}
